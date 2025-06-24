@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{box-sizing: border-box;}
+body{
+    font-family: "Inter", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 80px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, 
+header nav a,
+.hero-product-desckription-about,
+.hero-product-desckription-additiona-details,
+.product-card figcaption{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+}
+header nav{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+header button, 
+.hero-product-desckription button{
+    color: white;
+    background: black;
+    width: 99px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hero-product{
+    margin: 56px 0px 80px;
+    display: flex;
+    justify-content: space-between
+}
+.hero-product-desckription{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 515px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+}
+.hero-product-desckription h2, 
+.hero-product-desckription-price, 
+.products h,
+.footer-info h2{
+    font-size: 24px;
+    line-height: 150%
+}
+.hero-product-desckription h2, 
+.hero-product-desckription-about,
+.hero-product-desckription-additiona-details,
+.product-card-about{
+    color: #828282;
+}
+.hero-product-desckription button{
+    width: unset;
+}
+.hero-product-desckription-additiona-details{
+    font-size: 16px;
+}
+.product-cards{
+    margin: 24px 0px 120px;
+    display: flex;
+    gap: 32px;
+}
+.product-card{
+    flex: auto;
+}
+.product-card figcaption{
+    margin-top: 24px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e6e6e6;
+    padding: 48px;
+}
+.footer-links{
+    display: flex;
+    gap: 32px;
+}
+.footer-links-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 187px;
+}
+.footer-links-list a, .footer-links h3{
+    font-weight: 500;
+    line-height: 150%;
+    color: #454545;
+    text-decoration: none;
+}
+.footer-links h3{
+    color: black;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-media img:hover{
+    filter: brightness(50%);
+}
