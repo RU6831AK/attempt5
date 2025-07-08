@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+     min-height: 100vh;
+    background: #090979;
+    background: linear-gradient(90deg,rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.card{
+    background: lightgray;
+    width: 300px;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    margin: 40px 20px;
+    transition:0.5s;
+    display: inline-block;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card h3{
+    margin: 8px;
+    font-size: 22px;
+}
+.card .info{
+    margin: 8px;
+    color: grey;
+}
+.card .price{
+    margin: 8px;
+    font-weight: bold;
+}
+.card .old-price{
+    font-size: 14px;
+    color: red;
+    text-decoration: line-through;
+    margin-left: 12px;
+}
+button {
+    background: #020024;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin: 10px;
+    border: none;
+    padding: 15px 15px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+.heart {
+    float: right;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.back{
+color: white;
+margin: 20px;
+}
