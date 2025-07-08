@@ -1,0 +1,41 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 20px;
+    margin: 20px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#burger-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 100px;
+    gap: 30px;
+    background: white;
+    height: 100%;
+    box-shadow: 0px 0px 10px black;
+    transition: 1s;
+    
+}
+#burger-menu a{
+    color: darkcyan;
+    text-decoration: none;
+
+}
+#burger-menu-close{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
