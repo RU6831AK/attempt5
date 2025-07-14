@@ -132,6 +132,15 @@ button:hover{
     border-radius: 50%;
     transition: background-color 0.3s;
 }
+#about-us{
+    scroll-margin-top: 17rem;
+}
+#Our-purposes{
+    scroll-margin-top: 17rem;
+}
+#join{
+    scroll-margin-top: 17rem;
+}
 .about-us{
     margin: 100px auto;
     max-width: 1080px;
